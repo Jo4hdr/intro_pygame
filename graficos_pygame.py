@@ -49,7 +49,7 @@ while 1:
     # True : crea un poligono
     puntos1 = [(0,0),(50,100), (100,50), (250,200),(400,400)]
     puntos2 = [(200,0),(400,200),(200,400), (0,200)]
-    pygame.draw.lines(ventana,azul,True, puntos1) 
+    pygame.draw.lines(ventana,verde,True, puntos1) 
     pygame.draw.lines(ventana,azul,True, puntos2)
 
     # Dibujar un rectangulo
@@ -65,7 +65,10 @@ while 1:
     # Dibujar un circulo
     # Centro del circulo: (300,100)
     # Radio del circulo : 100
-    # Grosor contorno circulo : 1
+    # Grosor contorno circulo : 120),(80, 80)),100)
+    
+   
+
     pygame.draw.circle(ventana , blanco, (300,100), 100, 1)
 
     # Dibujar una elipse
